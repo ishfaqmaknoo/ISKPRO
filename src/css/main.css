@@ -10,22 +10,22 @@
 ****************************************/
 @font-face {
   font-family: "Noto Sans";
-  src: url("/src/fonts/NotoSans/NotoSans-Regular.ttf");
+  src: url("./src/fonts/NotoSans/NotoSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Sans Bold";
-  src: url("/src/fonts/NotoSans/NotoSans-bold.ttf");
+  src: url("./src/fonts/NotoSans/NotoSans-bold.ttf");
 }
 
 @font-face {
   font-family: "Noto Serif";
-  src: url("/src/fonts/NotoSerif/NotoSerif-Regular.ttf");
+  src: url("./src/fonts/NotoSerif/NotoSerif-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Serif Bold";
-  src: url("/src/fonts/NotoSerif/NotoSerif-Bold.ttf");
+  src: url("./src/fonts/NotoSerif/NotoSerif-Bold.ttf");
 }
 
 *,
@@ -225,6 +225,10 @@ h5 {
   margin: 0px;
 }
 
+p {
+  font-size: 16px;
+}
+
 .standout-text {
   font-size: 16px;
   margin-left: 12px;
@@ -242,7 +246,7 @@ h5 {
 }
 
 .forward-icon::before {
-  content: url("/src/media/forward-arrow.png");
+  content: url("../media/forward-arrow.png");
   position: absolute;
   right: 26px;
   width: 20px;
